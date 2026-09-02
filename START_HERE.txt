@@ -1,0 +1,12 @@
+MANTHAN AI NOTEBOOK — FINAL EDUCATIONAL AI MENTOR
+
+1. Install Docker Desktop.
+2. Copy backend/.env.example to backend/.env.
+3. Put your Gemini API key in backend/.env.
+4. Run: docker compose up --build
+5. Open: http://localhost:5173
+6. Create a free Manthan account.
+
+This version includes account authentication, per-user notebooks, server-side chat history, profile personalization, pin/archive/delete, library search, light/dark mode, OCR for scanned PDFs, batched Gemini embeddings, page-aware retrieval, and mentor-style document reasoning.
+
+IMPORTANT: Never commit backend/.env or expose your Gemini API key. For internet-facing production deployment, use HTTPS and a managed secret store.
